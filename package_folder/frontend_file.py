@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import json
 import pickle
-from package_folder.utils import from_number_to_flower
+from utils import from_number_to_flower
 
 st.title("My iris classifier app")
 
